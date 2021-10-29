@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Service.css';
 
 const Service = (props) => {
     const { serviceName, description, image, sl } = props.service;
@@ -7,7 +8,7 @@ const Service = (props) => {
     return (
         <div className="service">
             <div>
-                <img src={image} alt="" />
+                <img className="img-fluid" src={image} alt="" />
                 <h3>{sl}. {serviceName}</h3>
                 <p>{description}</p>
                 <Link to={url}><button className="btn btn-primary mb-3">Book Now</button></Link>

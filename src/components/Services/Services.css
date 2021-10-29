@@ -1,0 +1,9 @@
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    }
+.services img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
