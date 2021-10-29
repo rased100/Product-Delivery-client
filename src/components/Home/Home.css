@@ -1,0 +1,8 @@
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://www.outlookmagazine.ca/wp-content/uploads/2020/05/Courier-Delivery-202001-003.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
