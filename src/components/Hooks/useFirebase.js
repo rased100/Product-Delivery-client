@@ -23,13 +23,6 @@ const useFirebase = () => {
 
     const handleGoogleSignIn = () => {
         return signInWithPopup(auth, provider)
-        // .then((result) => {
-        //     setUser(result.user)
-        //     console.log(result.user)
-        // })
-        // .catch((error) => {
-        //     console.log(error.message)
-        // });
     }
     const logOut = () => {
         signOut(auth).then(() => {
