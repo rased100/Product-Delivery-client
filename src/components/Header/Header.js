@@ -13,9 +13,11 @@ const Header = () => {
 
             </div>
             <div>
-                <NavLink className="header-link" to="/home">Home</NavLink>
-                <NavLink className="header-link" to="/about">About</NavLink>
-                <NavLink className="header-link" to="/contact">Contact</NavLink>
+                <NavLink className="header-link" to="/home">home</NavLink>
+                <NavLink className="header-link" to="/about">about</NavLink>
+                <NavLink className="header-link" to="/manageallorders">manage-all-orders</NavLink>
+                <NavLink className="header-link" to="/newservice">new-Service</NavLink>
+                <NavLink className="header-link" to="/contact">contact</NavLink>
             </div>
             <div>
                 {user?.displayName ?
