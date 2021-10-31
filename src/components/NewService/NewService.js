@@ -7,7 +7,7 @@ const NewService = () => {
 
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:5000/services', data)
+        axios.post('https://polar-stream-21894.herokuapp.com/services', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('data added to server');
