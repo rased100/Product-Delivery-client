@@ -9,7 +9,9 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import ManageAllOrders from './components/ManageAllOrders/ManageAllOrders';
+import MyOrders from './components/MyOrders/MyOrders';
 import NewService from './components/NewService/NewService';
+import NotFound from './components/NotFound/NotFound';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 function App() {
@@ -31,8 +33,11 @@ function App() {
             <Route path="/manageallorders">
               <ManageAllOrders></ManageAllOrders>
             </Route>
-            <Route path="/newservice">
+            <PrivateRoute path="/newservice">
               <NewService></NewService>
+            </PrivateRoute>
+            <Route path="/myorders">
+              <MyOrders></MyOrders>
             </Route>
             <Route path="/contact">
               <Contact></Contact>
@@ -42,6 +47,9 @@ function App() {
             </PrivateRoute>
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <Route path="*">
+              <NotFound></NotFound>
             </Route>
           </Switch>
           <Footer></Footer>
