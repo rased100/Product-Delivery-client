@@ -1,4 +1,4 @@
-# CURRENT Delivery
+# CURRENT Delivery client side
 
 Live site: https://current-delivery.web.app
 

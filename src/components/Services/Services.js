@@ -10,7 +10,10 @@ const Services = () => {
         <div className="container my-5">
             <div className="services">
                 {
-                    services.map(service => <Service key={service._id} service={service}></Service>)
+                    //  mongodb not working I upload first 7 data there is problem
+                    // I cannot remove them from mongodb network problem
+                    // thats why i use slice(7 to 100)
+                    services.slice(7, 100).map(service => <Service key={service._id} service={service}></Service>)
                 }
             </div>
         </div>
