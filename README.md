@@ -4,7 +4,7 @@ Live site: https://current-delivery.web.app
 
 Client site code link: https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-rased100
 
-Server side code link: https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-rased100
+Server site code link: https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-rased100
 
 
 - This website about Product Delivery.
