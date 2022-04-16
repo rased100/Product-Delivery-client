@@ -9,7 +9,7 @@
 [live-site-link](https://current-delivery.web.app/) || [Client-Site-Code](https://github.com/rased100/Product-Delivery-client) || [Server-Site-Code](https://github.com/rased100/Product-Delivery-server)
 
 ### Used Technologies: 
-**React JS, Redux, Coinmarketcap Api Authentication, Node JS, Express JS and Bootstrap.**
+**React JS, Node JS, Express JS, MongoDB, Firebase Login Method and Bootstrap.**
 
 ## Developer
 [Md Rasedul Islam](https://github.com/rased100/)
